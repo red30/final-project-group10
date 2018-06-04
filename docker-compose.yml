@@ -29,7 +29,13 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      
+  
+  adminer:
+    image: adminer 
+    restart: always
+    ports:
+      - 8080:8080
+
   mongodb:
     image: mongo:latest
     restart: always
