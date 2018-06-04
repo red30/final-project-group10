@@ -1,0 +1,38 @@
+{
+  "name": "final-project-group10",
+  "version": "1.0.0",
+  "description": "A basic photo upload and sharing API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS493-Sp18/final-project-group10.git"
+  },
+  "author": "Rick Menzel <menzelr@oregonstate.edu>",
+  "contributors": [
+    "Bruce Garcia <garcibru@sikelianos.com>",
+    "Joshua Lioy <lioyj@oregonstate.edu>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/OSU-CS493-Sp18/final-project-group10/issues"
+  },
+  "homepage": "https://github.com/OSU-CS493-Sp18/final-project-group10#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bcryptjs": "^2.0.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongodb": "^2.2.5",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
